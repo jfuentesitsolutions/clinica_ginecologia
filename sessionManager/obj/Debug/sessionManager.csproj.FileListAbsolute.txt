@@ -1,0 +1,39 @@
+D:\Proyectos Desarrollos mios\invertario_alcaldia\app_alcaldia\app_inventario\sessionManager\bin\Debug\sessionManager.dll
+D:\Proyectos Desarrollos mios\invertario_alcaldia\app_alcaldia\app_inventario\sessionManager\bin\Debug\sessionManager.pdb
+D:\Proyectos Desarrollos mios\invertario_alcaldia\app_alcaldia\app_inventario\sessionManager\obj\Debug\sessionManager.csprojResolveAssemblyReference.cache
+D:\Proyectos Desarrollos mios\invertario_alcaldia\app_alcaldia\app_inventario\sessionManager\obj\Debug\sessionManager.dll
+D:\Proyectos Desarrollos mios\invertario_alcaldia\app_alcaldia\app_inventario\sessionManager\obj\Debug\sessionManager.pdb
+C:\Users\Fuentes\Desktop\Proyecto_gerardo\proyectos\sessionManager\bin\Debug\sessionManager.dll
+C:\Users\Fuentes\Desktop\Proyecto_gerardo\proyectos\sessionManager\bin\Debug\sessionManager.pdb
+C:\Users\Fuentes\Desktop\Proyecto_gerardo\proyectos\sessionManager\obj\Debug\sessionManager.csprojResolveAssemblyReference.cache
+C:\Users\Fuentes\Desktop\Proyecto_gerardo\proyectos\sessionManager\obj\Debug\sessionManager.dll
+C:\Users\Fuentes\Desktop\Proyecto_gerardo\proyectos\sessionManager\obj\Debug\sessionManager.pdb
+E:\Escritorio\Proyecto_gerardo\proyectos\sessionManager\bin\Debug\sessionManager.dll
+E:\Escritorio\Proyecto_gerardo\proyectos\sessionManager\bin\Debug\sessionManager.pdb
+E:\Escritorio\Proyecto_gerardo\proyectos\sessionManager\obj\Debug\sessionManager.dll
+E:\Escritorio\Proyecto_gerardo\proyectos\sessionManager\obj\Debug\sessionManager.pdb
+F:\Escritorio\Proyecto_gerardo\proyectos\sessionManager\bin\Debug\sessionManager.dll
+F:\Escritorio\Proyecto_gerardo\proyectos\sessionManager\bin\Debug\sessionManager.pdb
+F:\Escritorio\Proyecto_gerardo\proyectos\sessionManager\obj\Debug\sessionManager.dll
+F:\Escritorio\Proyecto_gerardo\proyectos\sessionManager\obj\Debug\sessionManager.pdb
+F:\Escritorio\Proyecto_gerardo\proyectos\sessionManager\obj\Debug\sessionManager.csprojResolveAssemblyReference.cache
+C:\Users\jfuentes\Documents\GitHub\Proyecto_gerardo\proyecto\proyectos\sessionManager\bin\Debug\sessionManager.dll
+C:\Users\jfuentes\Documents\GitHub\Proyecto_gerardo\proyecto\proyectos\sessionManager\bin\Debug\sessionManager.pdb
+C:\Users\jfuentes\Documents\GitHub\Proyecto_gerardo\proyecto\proyectos\sessionManager\obj\Debug\sessionManager.csprojResolveAssemblyReference.cache
+C:\Users\jfuentes\Documents\GitHub\Proyecto_gerardo\proyecto\proyectos\sessionManager\obj\Debug\sessionManager.dll
+C:\Users\jfuentes\Documents\GitHub\Proyecto_gerardo\proyecto\proyectos\sessionManager\obj\Debug\sessionManager.pdb
+C:\Users\Fuentes\Desktop\clinica\sessionManager\bin\Debug\sessionManager.dll
+C:\Users\Fuentes\Desktop\clinica\sessionManager\bin\Debug\sessionManager.pdb
+C:\Users\Fuentes\Desktop\clinica\sessionManager\obj\Debug\sessionManager.csprojResolveAssemblyReference.cache
+C:\Users\Fuentes\Desktop\clinica\sessionManager\obj\Debug\sessionManager.dll
+C:\Users\Fuentes\Desktop\clinica\sessionManager\obj\Debug\sessionManager.pdb
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\sessionManager\bin\Debug\sessionManager.dll
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\sessionManager\bin\Debug\sessionManager.pdb
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\sessionManager\obj\Debug\sessionManager.csprojResolveAssemblyReference.cache
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\sessionManager\obj\Debug\sessionManager.dll
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\sessionManager\obj\Debug\sessionManager.pdb
+D:\clinica\clinica_pastori\sessionManager\bin\Debug\sessionManager.dll
+D:\clinica\clinica_pastori\sessionManager\bin\Debug\sessionManager.pdb
+D:\clinica\clinica_pastori\sessionManager\obj\Debug\sessionManager.csprojResolveAssemblyReference.cache
+D:\clinica\clinica_pastori\sessionManager\obj\Debug\sessionManager.dll
+D:\clinica\clinica_pastori\sessionManager\obj\Debug\sessionManager.pdb

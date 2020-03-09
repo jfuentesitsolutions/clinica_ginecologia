@@ -1,0 +1,50 @@
+D:\Proyectos Desarrollos mios\invertario_alcaldia\app_alcaldia\app_inventario\utilitarios\bin\Debug\utilitarios.dll
+D:\Proyectos Desarrollos mios\invertario_alcaldia\app_alcaldia\app_inventario\utilitarios\bin\Debug\utilitarios.pdb
+D:\Proyectos Desarrollos mios\invertario_alcaldia\app_alcaldia\app_inventario\utilitarios\obj\Debug\utilitarios.csprojResolveAssemblyReference.cache
+D:\Proyectos Desarrollos mios\invertario_alcaldia\app_alcaldia\app_inventario\utilitarios\obj\Debug\utilitarios.dll
+D:\Proyectos Desarrollos mios\invertario_alcaldia\app_alcaldia\app_inventario\utilitarios\obj\Debug\utilitarios.pdb
+C:\Users\Fuentes\Desktop\Proyecto_gerardo\proyectos\utilitarios\bin\Debug\utilitarios.dll
+C:\Users\Fuentes\Desktop\Proyecto_gerardo\proyectos\utilitarios\bin\Debug\utilitarios.pdb
+C:\Users\Fuentes\Desktop\Proyecto_gerardo\proyectos\utilitarios\obj\Debug\utilitarios.dll
+C:\Users\Fuentes\Desktop\Proyecto_gerardo\proyectos\utilitarios\obj\Debug\utilitarios.pdb
+C:\Users\Fuentes\Desktop\Proyecto_gerardo\proyectos\utilitarios\obj\Debug\utilitarios.csprojResolveAssemblyReference.cache
+E:\Escritorio\Proyecto_gerardo\proyectos\utilitarios\bin\Debug\utilitarios.dll
+E:\Escritorio\Proyecto_gerardo\proyectos\utilitarios\bin\Debug\utilitarios.pdb
+E:\Escritorio\Proyecto_gerardo\proyectos\utilitarios\obj\Debug\utilitarios.dll
+E:\Escritorio\Proyecto_gerardo\proyectos\utilitarios\obj\Debug\utilitarios.pdb
+F:\Escritorio\Proyecto_gerardo\proyectos\utilitarios\bin\Debug\utilitarios.dll
+F:\Escritorio\Proyecto_gerardo\proyectos\utilitarios\bin\Debug\utilitarios.pdb
+F:\Escritorio\Proyecto_gerardo\proyectos\utilitarios\obj\Debug\utilitarios.dll
+F:\Escritorio\Proyecto_gerardo\proyectos\utilitarios\obj\Debug\utilitarios.pdb
+F:\Escritorio\Proyecto_gerardo\proyectos\utilitarios\obj\Debug\utilitarios.csprojResolveAssemblyReference.cache
+E:\Escritorio\Proyecto_gerardo\proyectos\utilitarios\obj\Debug\utilitarios.csprojResolveAssemblyReference.cache
+E:\Escritorio\Proyecto_gerardo\proyectos\utilitarios\obj\Debug\utilitarios.barra_progreso.resources
+E:\Escritorio\Proyecto_gerardo\proyectos\utilitarios\obj\Debug\utilitarios.csproj.GenerateResource.Cache
+C:\Users\jfuentes\Documents\GitHub\Proyecto_gerardo\proyecto\proyectos\utilitarios\bin\Debug\utilitarios.dll
+C:\Users\jfuentes\Documents\GitHub\Proyecto_gerardo\proyecto\proyectos\utilitarios\bin\Debug\utilitarios.pdb
+C:\Users\jfuentes\Documents\GitHub\Proyecto_gerardo\proyecto\proyectos\utilitarios\obj\Debug\utilitarios.csprojResolveAssemblyReference.cache
+C:\Users\jfuentes\Documents\GitHub\Proyecto_gerardo\proyecto\proyectos\utilitarios\obj\Debug\utilitarios.barra_progreso.resources
+C:\Users\jfuentes\Documents\GitHub\Proyecto_gerardo\proyecto\proyectos\utilitarios\obj\Debug\utilitarios.csproj.GenerateResource.Cache
+C:\Users\jfuentes\Documents\GitHub\Proyecto_gerardo\proyecto\proyectos\utilitarios\obj\Debug\utilitarios.dll
+C:\Users\jfuentes\Documents\GitHub\Proyecto_gerardo\proyecto\proyectos\utilitarios\obj\Debug\utilitarios.pdb
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\utilitarios\bin\Debug\utilitarios.dll
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\utilitarios\bin\Debug\utilitarios.pdb
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\utilitarios\obj\Debug\utilitarios.csprojResolveAssemblyReference.cache
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\utilitarios\obj\Debug\utilitarios.barra_progreso.resources
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\utilitarios\obj\Debug\utilitarios.csproj.GenerateResource.Cache
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\utilitarios\obj\Debug\utilitarios.dll
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\utilitarios\obj\Debug\utilitarios.pdb
+C:\Users\Fuentes\Desktop\clinica\utilitarios\bin\Debug\utilitarios.dll
+C:\Users\Fuentes\Desktop\clinica\utilitarios\bin\Debug\utilitarios.pdb
+C:\Users\Fuentes\Desktop\clinica\utilitarios\obj\Debug\utilitarios.csprojResolveAssemblyReference.cache
+C:\Users\Fuentes\Desktop\clinica\utilitarios\obj\Debug\utilitarios.barra_progreso.resources
+C:\Users\Fuentes\Desktop\clinica\utilitarios\obj\Debug\utilitarios.csproj.GenerateResource.Cache
+C:\Users\Fuentes\Desktop\clinica\utilitarios\obj\Debug\utilitarios.dll
+C:\Users\Fuentes\Desktop\clinica\utilitarios\obj\Debug\utilitarios.pdb
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\utilitarios\bin\Debug\utilitarios.dll
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\utilitarios\bin\Debug\utilitarios.pdb
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\utilitarios\obj\Debug\utilitarios.csprojResolveAssemblyReference.cache
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\utilitarios\obj\Debug\utilitarios.barra_progreso.resources
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\utilitarios\obj\Debug\utilitarios.csproj.GenerateResource.Cache
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\utilitarios\obj\Debug\utilitarios.dll
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\utilitarios\obj\Debug\utilitarios.pdb

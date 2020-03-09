@@ -1,0 +1,24 @@
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\conexionBD\bin\Debug\conexionBD.dll
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\conexionBD\bin\Debug\conexionBD.pdb
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\conexionBD\obj\Debug\conexionBD.dll
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\conexionBD\obj\Debug\conexionBD.pdb
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\conexionBD\bin\Debug\conexionBD.dll.config
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\conexionBD\obj\Debug\conexionBD.csprojResolveAssemblyReference.cache
+C:\Users\Fuentes\Desktop\clinica\conexionBD\bin\Debug\conexionBD.dll.config
+C:\Users\Fuentes\Desktop\clinica\conexionBD\bin\Debug\conexionBD.dll
+C:\Users\Fuentes\Desktop\clinica\conexionBD\bin\Debug\conexionBD.pdb
+C:\Users\Fuentes\Desktop\clinica\conexionBD\obj\Debug\conexionBD.csprojResolveAssemblyReference.cache
+C:\Users\Fuentes\Desktop\clinica\conexionBD\obj\Debug\conexionBD.dll
+C:\Users\Fuentes\Desktop\clinica\conexionBD\obj\Debug\conexionBD.pdb
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\conexionBD\bin\Debug\conexionBD.dll.config
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\conexionBD\bin\Debug\conexionBD.dll
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\conexionBD\bin\Debug\conexionBD.pdb
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\conexionBD\obj\Debug\conexionBD.csprojResolveAssemblyReference.cache
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\conexionBD\obj\Debug\conexionBD.dll
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\conexionBD\obj\Debug\conexionBD.pdb
+D:\clinica\clinica_pastori\conexionBD\bin\Debug\conexionBD.dll.config
+D:\clinica\clinica_pastori\conexionBD\bin\Debug\conexionBD.dll
+D:\clinica\clinica_pastori\conexionBD\bin\Debug\conexionBD.pdb
+D:\clinica\clinica_pastori\conexionBD\obj\Debug\conexionBD.csprojResolveAssemblyReference.cache
+D:\clinica\clinica_pastori\conexionBD\obj\Debug\conexionBD.dll
+D:\clinica\clinica_pastori\conexionBD\obj\Debug\conexionBD.pdb

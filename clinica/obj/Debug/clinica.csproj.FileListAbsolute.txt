@@ -1,0 +1,71 @@
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\bin\Debug\clinica.exe.config
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\bin\Debug\clinica.exe
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\bin\Debug\clinica.pdb
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\obj\Debug\clinica.csprojResolveAssemblyReference.cache
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\obj\Debug\clinica.Login.login_inicio.resources
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\obj\Debug\clinica.Properties.Resources.resources
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\obj\Debug\clinica.csproj.GenerateResource.Cache
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\obj\Debug\clinica.exe
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\obj\Debug\clinica.pdb
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\bin\Debug\conexionBD.dll
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\bin\Debug\conexionBD.pdb
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\obj\Debug\clinica.Login.registro_usuarios.resources
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\bin\Debug\sessionManager.dll
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\bin\Debug\utilitarios.dll
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\bin\Debug\sessionManager.pdb
+C:\Users\Fuentes\Documents\Visual Studio 2015\Projects\clinica\clinica\bin\Debug\utilitarios.pdb
+C:\Users\Fuentes\Desktop\clinica\clinica\bin\Debug\clinica.exe.config
+C:\Users\Fuentes\Desktop\clinica\clinica\obj\Debug\clinica.exe
+C:\Users\Fuentes\Desktop\clinica\clinica\obj\Debug\clinica.pdb
+C:\Users\Fuentes\Desktop\clinica\clinica\bin\Debug\clinica.exe
+C:\Users\Fuentes\Desktop\clinica\clinica\bin\Debug\clinica.pdb
+C:\Users\Fuentes\Desktop\clinica\clinica\bin\Debug\conexionBD.dll
+C:\Users\Fuentes\Desktop\clinica\clinica\bin\Debug\sessionManager.dll
+C:\Users\Fuentes\Desktop\clinica\clinica\bin\Debug\utilitarios.dll
+C:\Users\Fuentes\Desktop\clinica\clinica\bin\Debug\conexionBD.pdb
+C:\Users\Fuentes\Desktop\clinica\clinica\bin\Debug\sessionManager.pdb
+C:\Users\Fuentes\Desktop\clinica\clinica\bin\Debug\utilitarios.pdb
+C:\Users\Fuentes\Desktop\clinica\clinica\obj\Debug\clinica.csprojResolveAssemblyReference.cache
+C:\Users\Fuentes\Desktop\clinica\clinica\obj\Debug\clinica.Login.login_inicio.resources
+C:\Users\Fuentes\Desktop\clinica\clinica\obj\Debug\clinica.Login.registro_usuarios.resources
+C:\Users\Fuentes\Desktop\clinica\clinica\obj\Debug\clinica.Properties.Resources.resources
+C:\Users\Fuentes\Desktop\clinica\clinica\obj\Debug\clinica.csproj.GenerateResource.Cache
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\bin\Debug\clinica.exe.config
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\obj\Debug\clinica.exe
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\obj\Debug\clinica.pdb
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\bin\Debug\clinica.exe
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\bin\Debug\clinica.pdb
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\bin\Debug\conexionBD.dll
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\bin\Debug\sessionManager.dll
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\bin\Debug\utilitarios.dll
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\bin\Debug\conexionBD.pdb
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\bin\Debug\sessionManager.pdb
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\bin\Debug\utilitarios.pdb
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\obj\Debug\clinica.csprojResolveAssemblyReference.cache
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\obj\Debug\clinica.Login.login_inicio.resources
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\obj\Debug\clinica.Login.registro_usuarios.resources
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\obj\Debug\clinica.Properties.Resources.resources
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\obj\Debug\clinica.csproj.GenerateResource.Cache
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\obj\Debug\clinica.principal.pantalla_principal.resources
+D:\clinica\clinica_pastori\clinica\bin\Debug\clinica.exe.config
+D:\clinica\clinica_pastori\clinica\obj\Debug\clinica.exe
+D:\clinica\clinica_pastori\clinica\obj\Debug\clinica.pdb
+D:\clinica\clinica_pastori\clinica\bin\Debug\clinica.exe
+D:\clinica\clinica_pastori\clinica\bin\Debug\clinica.pdb
+D:\clinica\clinica_pastori\clinica\bin\Debug\conexionBD.dll
+D:\clinica\clinica_pastori\clinica\bin\Debug\sessionManager.dll
+D:\clinica\clinica_pastori\clinica\bin\Debug\utilitarios.dll
+D:\clinica\clinica_pastori\clinica\bin\Debug\conexionBD.pdb
+D:\clinica\clinica_pastori\clinica\bin\Debug\sessionManager.pdb
+D:\clinica\clinica_pastori\clinica\bin\Debug\utilitarios.pdb
+D:\clinica\clinica_pastori\clinica\obj\Debug\clinica.csprojResolveAssemblyReference.cache
+D:\clinica\clinica_pastori\clinica\obj\Debug\clinica.Login.login_inicio.resources
+D:\clinica\clinica_pastori\clinica\obj\Debug\clinica.Login.registro_usuarios.resources
+D:\clinica\clinica_pastori\clinica\obj\Debug\clinica.principal.pantalla_principal.resources
+D:\clinica\clinica_pastori\clinica\obj\Debug\clinica.Properties.Resources.resources
+D:\clinica\clinica_pastori\clinica\obj\Debug\clinica.csproj.GenerateResource.Cache
+D:\clinica\clinica_pastori\clinica\obj\Debug\clinica.principal.interfaces.configuracion.resources
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\obj\Debug\clinica.principal.interfaces.configuracion.resources
+D:\clinica\clinica_pastori\clinica\obj\Debug\clinica.principal.mensajes.definicion_horarios.resources
+C:\Users\Fuentes\Documents\GitHub\clinica_pastori\clinica\obj\Debug\clinica.principal.mensajes.definicion_horarios.resources
