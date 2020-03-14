@@ -166,8 +166,7 @@ namespace clinica.Login
 
         private void llenarListaDoctor()
         {
-            conexionBD.clases.medicos med = new conexionBD.clases.medicos();
-            cargandoListas.cargarLista(med.datosMedicos(), listaMedicos, "nombres", "iddoctor");
+            cargandoListas.cargarLista(conexionBD.clases.medicos.datosMedicos(), listaMedicos, "nombres", "iddoctor");
         }
 
         private void registro_usuarios_Load(object sender, EventArgs e)

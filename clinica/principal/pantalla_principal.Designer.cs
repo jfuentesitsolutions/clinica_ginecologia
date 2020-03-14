@@ -39,8 +39,8 @@
             this.btnConfiguraciones = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton24 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnMedicos = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btn_pacientes = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -125,8 +125,8 @@
             this.panel_lateral.Controls.Add(this.btnConfiguraciones);
             this.panel_lateral.Controls.Add(this.bunifuThinButton24);
             this.panel_lateral.Controls.Add(this.bunifuThinButton23);
-            this.panel_lateral.Controls.Add(this.bunifuThinButton22);
-            this.panel_lateral.Controls.Add(this.bunifuThinButton21);
+            this.panel_lateral.Controls.Add(this.btnMedicos);
+            this.panel_lateral.Controls.Add(this.btn_pacientes);
             this.panel_lateral.Controls.Add(this.pictureBox2);
             this.panel_lateral.Controls.Add(this.panel2);
             this.panel_lateral.Dock = System.Windows.Forms.DockStyle.Left;
@@ -211,55 +211,57 @@
             this.bunifuThinButton23.TabIndex = 17;
             this.bunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuThinButton22
+            // btnMedicos
             // 
-            this.bunifuThinButton22.ActiveBorderThickness = 1;
-            this.bunifuThinButton22.ActiveCornerRadius = 20;
-            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.Pink;
-            this.bunifuThinButton22.ActiveForecolor = System.Drawing.SystemColors.Control;
-            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton22.BackColor = System.Drawing.SystemColors.Control;
-            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
-            this.bunifuThinButton22.ButtonText = "Medicos";
-            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton22.IdleBorderThickness = 1;
-            this.bunifuThinButton22.IdleCornerRadius = 20;
-            this.bunifuThinButton22.IdleFillColor = System.Drawing.SystemColors.Control;
-            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton22.Location = new System.Drawing.Point(5, 190);
-            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.Size = new System.Drawing.Size(159, 41);
-            this.bunifuThinButton22.TabIndex = 16;
-            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnMedicos.ActiveBorderThickness = 1;
+            this.btnMedicos.ActiveCornerRadius = 20;
+            this.btnMedicos.ActiveFillColor = System.Drawing.Color.Pink;
+            this.btnMedicos.ActiveForecolor = System.Drawing.SystemColors.Control;
+            this.btnMedicos.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
+            this.btnMedicos.BackColor = System.Drawing.SystemColors.Control;
+            this.btnMedicos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMedicos.BackgroundImage")));
+            this.btnMedicos.ButtonText = "Medicos";
+            this.btnMedicos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMedicos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMedicos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
+            this.btnMedicos.IdleBorderThickness = 1;
+            this.btnMedicos.IdleCornerRadius = 20;
+            this.btnMedicos.IdleFillColor = System.Drawing.SystemColors.Control;
+            this.btnMedicos.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
+            this.btnMedicos.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
+            this.btnMedicos.Location = new System.Drawing.Point(5, 190);
+            this.btnMedicos.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMedicos.Name = "btnMedicos";
+            this.btnMedicos.Size = new System.Drawing.Size(159, 41);
+            this.btnMedicos.TabIndex = 16;
+            this.btnMedicos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnMedicos.Click += new System.EventHandler(this.btnMedicos_Click);
             // 
-            // bunifuThinButton21
+            // btn_pacientes
             // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.Pink;
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.SystemColors.Control;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton21.BackColor = System.Drawing.SystemColors.Control;
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "Pacientes";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton21.IdleBorderThickness = 1;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.SystemColors.Control;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton21.Location = new System.Drawing.Point(5, 139);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(159, 41);
-            this.bunifuThinButton21.TabIndex = 15;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_pacientes.ActiveBorderThickness = 1;
+            this.btn_pacientes.ActiveCornerRadius = 20;
+            this.btn_pacientes.ActiveFillColor = System.Drawing.Color.Pink;
+            this.btn_pacientes.ActiveForecolor = System.Drawing.SystemColors.Control;
+            this.btn_pacientes.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
+            this.btn_pacientes.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_pacientes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_pacientes.BackgroundImage")));
+            this.btn_pacientes.ButtonText = "Pacientes";
+            this.btn_pacientes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_pacientes.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_pacientes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
+            this.btn_pacientes.IdleBorderThickness = 1;
+            this.btn_pacientes.IdleCornerRadius = 20;
+            this.btn_pacientes.IdleFillColor = System.Drawing.SystemColors.Control;
+            this.btn_pacientes.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
+            this.btn_pacientes.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(34)))), ((int)(((byte)(57)))));
+            this.btn_pacientes.Location = new System.Drawing.Point(5, 139);
+            this.btn_pacientes.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_pacientes.Name = "btn_pacientes";
+            this.btn_pacientes.Size = new System.Drawing.Size(159, 41);
+            this.btn_pacientes.TabIndex = 15;
+            this.btn_pacientes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_pacientes.Click += new System.EventHandler(this.btn_pacientes_Click);
             // 
             // panel2
             // 
@@ -308,11 +310,11 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
         private System.Windows.Forms.Panel panel_lateral;
         private System.Windows.Forms.Panel panel2;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
+        private Bunifu.Framework.UI.BunifuThinButton2 btn_pacientes;
         private Bunifu.Framework.UI.BunifuThinButton2 btnConfiguraciones;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton24;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton23;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
+        private Bunifu.Framework.UI.BunifuThinButton2 btnMedicos;
         public Bunifu.Framework.UI.BunifuCustomLabel lblTitulo;
     }
 }

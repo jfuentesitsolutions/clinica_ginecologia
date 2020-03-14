@@ -19,6 +19,8 @@ namespace utilitarios
                     return "Tienes que elegir una opción de la lista";
                 case 3:
                     return "No se pudo guardar el registro";
+                case 4:
+                    return "La cantidad no puede quedar a cero";
             }
 
             return "";

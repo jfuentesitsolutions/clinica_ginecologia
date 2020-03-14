@@ -100,6 +100,37 @@ namespace conexionBD
             base.cerrar();
             return retorno;
         }
+        private int guardarDatosPacientes(clases.pacientes paci)
+        {
+            int retorno = 0;
+            try
+            {
+                String sentencia;
+                sentencia = @"INSERT INTO PACIENTES(nombres, apellidos, direccion, telefono, edad, observaciones, expediente) 
+                    VALUES(@no, @ape, @dir, @tele, @eda, @obs, @expe);";
+                cmd = new OleDbCommand(sentencia, base.conectar());
+                cmd.Parameters.AddWithValue("@no", paci.Nombres);
+                cmd.Parameters.AddWithValue("@ape", paci.Apellidos);
+                cmd.Parameters.AddWithValue("@dir", paci.Direccion);
+                cmd.Parameters.AddWithValue("@tele", paci.Telefono);
+                cmd.Parameters.AddWithValue("@eda", paci.Edad);
+                cmd.Parameters.AddWithValue("@obs", paci.Observacion);
+                cmd.Parameters.AddWithValue("@expe", paci.Expediente);
+                cmd.ExecuteNonQuery();
+
+
+                cmd.CommandText = "SELECT @@Identity";
+                retorno = (int)cmd.ExecuteScalar();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                retorno = 0;
+            }
+
+            base.cerrar();
+            return retorno;
+        }
         public DataTable datosMedicos()
         {
             DataTable datos = null;
@@ -108,6 +139,28 @@ namespace conexionBD
                 base.Adaptador = new OleDbDataAdapter();
                 DataSet data = new DataSet();
                 string sentencia = "SELECT * FROM DOCTORES";
+                base.Adaptador.SelectCommand = new OleDbCommand(sentencia, base.conectar());
+                base.Constructor = new OleDbCommandBuilder(Adaptador);
+
+                base.Adaptador.Fill(data);
+                datos = data.Tables[0];
+            }
+            catch
+            {
+                datos = null;
+            }
+
+            base.cerrar();
+            return datos;
+        }
+        public DataTable datosPacientes()
+        {
+            DataTable datos = null;
+            try
+            {
+                base.Adaptador = new OleDbDataAdapter();
+                DataSet data = new DataSet();
+                string sentencia = "SELECT * FROM PACIENTES";
                 base.Adaptador.SelectCommand = new OleDbCommand(sentencia, base.conectar());
                 base.Constructor = new OleDbCommandBuilder(Adaptador);
 
@@ -405,6 +458,98 @@ namespace conexionBD
 
             }
         }
+        private bool actualizar_paciente(clases.pacientes paci)
+        {
+            try
+            {
+
+                string sentencia = @"UPDATE PACIENTES SET nombres=@no, apellidos=@ape, direccion=@dir, telefono=@tele, edad=@eda, observaciones=@obs, expediente=@expe where idpaciente=@id;";
+                cmd = new OleDbCommand(sentencia, base.conectar());
+                cmd.Parameters.AddWithValue("@no", paci.Nombres);
+                cmd.Parameters.AddWithValue("@ape", paci.Apellidos);
+                cmd.Parameters.AddWithValue("@dir", paci.Direccion);
+                cmd.Parameters.AddWithValue("@tele", paci.Telefono);
+                cmd.Parameters.AddWithValue("@eda", paci.Edad);
+                cmd.Parameters.AddWithValue("@obs", paci.Observacion);
+                cmd.Parameters.AddWithValue("@expe", paci.Expediente);
+                cmd.Parameters.AddWithValue("@id", paci.Id);
+                cmd.ExecuteNonQuery();
+                base.cerrar();
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                base.cerrar();
+                return false;
+
+            }
+        }
+        private bool actualizar_medicos(clases.medicos medi)
+        {
+            try
+            {
+
+                string sentencia = @"UPDATE DOCTORES SET nombres=@no, apellidos=@ape, numero_junta=@num, telefono=@tele, correo=@corr where iddoctor=@id;";
+                cmd = new OleDbCommand(sentencia, base.conectar());
+                cmd.Parameters.AddWithValue("@no", medi.Nombres);
+                cmd.Parameters.AddWithValue("@ape", medi.Apellidos);
+                cmd.Parameters.AddWithValue("@num", medi.Numero_junta);
+                cmd.Parameters.AddWithValue("@tele", medi.Telefono);
+                cmd.Parameters.AddWithValue("@corr", medi.Correo);
+                cmd.Parameters.AddWithValue("@id", medi.Id);
+                cmd.ExecuteNonQuery();
+                base.cerrar();
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                base.cerrar();
+                return false;
+
+            }
+        }
+        private bool eliminar_paciente(string paci)
+        {
+            try
+            {
+
+                string sentencia = "DELETE * FROM PACIENTES WHERE idpaciente=@id;";
+                cmd = new OleDbCommand(sentencia, base.conectar());
+                cmd.Parameters.AddWithValue("@id", paci);
+                cmd.ExecuteNonQuery();
+                base.cerrar();
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                base.cerrar();
+                return false;
+
+            }
+        }
+        private bool eliminar_medico(string medi)
+        {
+            try
+            {
+
+                string sentencia = "DELETE * FROM DOCTORES WHERE iddoctor=@id;";
+                cmd = new OleDbCommand(sentencia, base.conectar());
+                cmd.Parameters.AddWithValue("@id", medi);
+                cmd.ExecuteNonQuery();
+                base.cerrar();
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                base.cerrar();
+                return false;
+
+            }
+        }
         private bool actualizar_horarios(List<clases.clinica_horario> cli)
         {
             try
@@ -447,6 +592,10 @@ namespace conexionBD
         {
             return guardarDatosUsuario(u);
         }
+        public int guarda_pacientes(clases.pacientes p)
+        {
+            return guardarDatosPacientes(p);
+        }
         public int guarda_clinica(clases.clinica cli)
         {
             return guardarDatosClinica(cli);
@@ -478,6 +627,24 @@ namespace conexionBD
         public int guardando_horarios(clases.clinica_horario cli)
         {
             return guardandoHorarios(cli);
+        }
+        public bool modificar_paciente(clases.pacientes p)
+        {
+            return actualizar_paciente(p);
+        }
+        public bool elimina_paciente(string p)
+        {
+            return eliminar_paciente(p);
+        }
+
+        public bool modificar_medico(clases.medicos medi)
+        {
+            return actualizar_medicos(medi);
+        }
+
+        public bool elimina_medico(string id)
+        {
+            return eliminar_medico(id);
         }
 
     }

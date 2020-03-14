@@ -48,3 +48,10 @@ C:\Users\Fuentes\Documents\GitHub\clinica_pastori\utilitarios\obj\Debug\utilitar
 C:\Users\Fuentes\Documents\GitHub\clinica_pastori\utilitarios\obj\Debug\utilitarios.csproj.GenerateResource.Cache
 C:\Users\Fuentes\Documents\GitHub\clinica_pastori\utilitarios\obj\Debug\utilitarios.dll
 C:\Users\Fuentes\Documents\GitHub\clinica_pastori\utilitarios\obj\Debug\utilitarios.pdb
+C:\Users\Fuentes\Documents\GitHub\clinica_ginecologia\utilitarios\bin\Debug\utilitarios.dll
+C:\Users\Fuentes\Documents\GitHub\clinica_ginecologia\utilitarios\bin\Debug\utilitarios.pdb
+C:\Users\Fuentes\Documents\GitHub\clinica_ginecologia\utilitarios\obj\Debug\utilitarios.csprojResolveAssemblyReference.cache
+C:\Users\Fuentes\Documents\GitHub\clinica_ginecologia\utilitarios\obj\Debug\utilitarios.barra_progreso.resources
+C:\Users\Fuentes\Documents\GitHub\clinica_ginecologia\utilitarios\obj\Debug\utilitarios.csproj.GenerateResource.Cache
+C:\Users\Fuentes\Documents\GitHub\clinica_ginecologia\utilitarios\obj\Debug\utilitarios.dll
+C:\Users\Fuentes\Documents\GitHub\clinica_ginecologia\utilitarios\obj\Debug\utilitarios.pdb

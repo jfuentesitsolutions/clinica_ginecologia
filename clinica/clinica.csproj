@@ -69,6 +69,18 @@
     <Compile Include="principal\interfaces\configuracion.Designer.cs">
       <DependentUpon>configuracion.cs</DependentUpon>
     </Compile>
+    <Compile Include="principal\interfaces\medicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="principal\interfaces\medicos.Designer.cs">
+      <DependentUpon>medicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="principal\interfaces\pacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="principal\interfaces\pacientes.Designer.cs">
+      <DependentUpon>pacientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="principal\mensajes\definicion_horarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +103,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="principal\interfaces\configuracion.resx">
       <DependentUpon>configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="principal\interfaces\medicos.resx">
+      <DependentUpon>medicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="principal\interfaces\pacientes.resx">
+      <DependentUpon>pacientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="principal\mensajes\definicion_horarios.resx">
       <DependentUpon>definicion_horarios.cs</DependentUpon>
@@ -155,6 +173,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

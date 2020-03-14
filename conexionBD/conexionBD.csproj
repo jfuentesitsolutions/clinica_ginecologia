@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="clases\clinica.cs" />
     <Compile Include="clases\clinica_horario.cs" />
+    <Compile Include="clases\pacientes.cs" />
     <Compile Include="clases\telefonos.cs" />
     <Compile Include="clases\telefonos_clinica.cs" />
     <Compile Include="clases\usuarios.cs" />

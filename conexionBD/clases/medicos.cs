@@ -9,7 +9,7 @@ namespace conexionBD.clases
 {
     public class medicos
     {
-        private string nombres, apellidos, numero_junta, telefono, correo;
+        private string id, nombres, apellidos, numero_junta, telefono, correo;
 
         public medicos(string nom, string apelli, string nu_ju, string tel, string corre)
         {
@@ -89,7 +89,20 @@ namespace conexionBD.clases
             }
         }
 
-        public DataTable datosMedicos()
+        public string Id
+        {
+            get
+            {
+                return id;
+            }
+
+            set
+            {
+                id = value;
+            }
+        }
+
+        public static DataTable datosMedicos()
         {
             DataTable datos=null;
             persisencia per = new persisencia();

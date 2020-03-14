@@ -70,5 +70,17 @@ namespace clinica.principal
                 lblTitulo.Text = "Nombre de la clinica no definido";
             }
         }
+
+        private void btn_pacientes_Click(object sender, EventArgs e)
+        {
+            interfaces.pacientes paci = new interfaces.pacientes();
+            cheCarForm(paci, this, false);
+        }
+
+        private void btnMedicos_Click(object sender, EventArgs e)
+        {
+            interfaces.medicos medi = new interfaces.medicos();
+            cheCarForm(medi, this, false);
+        }
     }
 }

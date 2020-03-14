@@ -41,7 +41,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(configuracion));
             this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnActualizar = new System.Windows.Forms.PictureBox();
             this.txtCorreo = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.txtNombre = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -66,25 +65,26 @@
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnQuitar = new System.Windows.Forms.PictureBox();
-            this.btnAgregar = new System.Windows.Forms.PictureBox();
             this.txtNumero = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.img_combo = new System.Windows.Forms.ImageList(this.components);
             this.error = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btnActualizar = new System.Windows.Forms.PictureBox();
+            this.btnQuitar = new System.Windows.Forms.PictureBox();
+            this.btnAgregar = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuCards1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnActualizar)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabla_horarios)).BeginInit();
             this.telefonos.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabla_telefonos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.error)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnActualizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuitar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAgregar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.error)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuCards1
@@ -117,17 +117,6 @@
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos clinica";
-            // 
-            // btnActualizar
-            // 
-            this.btnActualizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnActualizar.Image = global::clinica.Properties.Resources.refresh;
-            this.btnActualizar.Location = new System.Drawing.Point(245, 108);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(24, 24);
-            this.btnActualizar.TabIndex = 17;
-            this.btnActualizar.TabStop = false;
-            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // txtCorreo
             // 
@@ -188,7 +177,7 @@
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(141, 32);
             this.btnGuardar.TabIndex = 5;
-            this.btnGuardar.Text = "Guardar Horarios";
+            this.btnGuardar.Text = "Guardar horarios";
             this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
@@ -204,7 +193,7 @@
             // 
             // chk_todos
             // 
-            this.chk_todos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
+            this.chk_todos.BackColor = System.Drawing.Color.Pink;
             this.chk_todos.ChechedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
             this.chk_todos.Checked = false;
             this.chk_todos.CheckedOnColor = System.Drawing.Color.Pink;
@@ -437,30 +426,6 @@
             this.Column9.ReadOnly = true;
             this.Column9.Visible = false;
             // 
-            // btnQuitar
-            // 
-            this.btnQuitar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnQuitar.Image = global::clinica.Properties.Resources.remove;
-            this.btnQuitar.Location = new System.Drawing.Point(242, 111);
-            this.btnQuitar.Name = "btnQuitar";
-            this.btnQuitar.Size = new System.Drawing.Size(24, 24);
-            this.btnQuitar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnQuitar.TabIndex = 16;
-            this.btnQuitar.TabStop = false;
-            this.btnQuitar.Click += new System.EventHandler(this.btnQuitar_Click);
-            // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAgregar.Image = global::clinica.Properties.Resources.plus;
-            this.btnAgregar.Location = new System.Drawing.Point(213, 111);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(24, 24);
-            this.btnAgregar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnAgregar.TabIndex = 15;
-            this.btnAgregar.TabStop = false;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
-            // 
             // txtNumero
             // 
             this.txtNumero.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -491,6 +456,54 @@
             this.bunifuCustomLabel1.TabIndex = 1;
             this.bunifuCustomLabel1.Text = "Datos de clinica";
             // 
+            // img_combo
+            // 
+            this.img_combo.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("img_combo.ImageStream")));
+            this.img_combo.TransparentColor = System.Drawing.Color.Transparent;
+            this.img_combo.Images.SetKeyName(0, "smartphone.png");
+            this.img_combo.Images.SetKeyName(1, "telephone.png");
+            this.img_combo.Images.SetKeyName(2, "fax.png");
+            // 
+            // error
+            // 
+            this.error.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
+            this.error.ContainerControl = this;
+            // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnActualizar.Image = global::clinica.Properties.Resources.refresh;
+            this.btnActualizar.Location = new System.Drawing.Point(245, 108);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(24, 24);
+            this.btnActualizar.TabIndex = 17;
+            this.btnActualizar.TabStop = false;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+            // 
+            // btnQuitar
+            // 
+            this.btnQuitar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnQuitar.Image = global::clinica.Properties.Resources.remove;
+            this.btnQuitar.Location = new System.Drawing.Point(242, 111);
+            this.btnQuitar.Name = "btnQuitar";
+            this.btnQuitar.Size = new System.Drawing.Size(24, 24);
+            this.btnQuitar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnQuitar.TabIndex = 16;
+            this.btnQuitar.TabStop = false;
+            this.btnQuitar.Click += new System.EventHandler(this.btnQuitar_Click);
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAgregar.Image = global::clinica.Properties.Resources.plus;
+            this.btnAgregar.Location = new System.Drawing.Point(213, 111);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(24, 24);
+            this.btnAgregar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnAgregar.TabIndex = 15;
+            this.btnAgregar.TabStop = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -504,19 +517,6 @@
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // img_combo
-            // 
-            this.img_combo.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("img_combo.ImageStream")));
-            this.img_combo.TransparentColor = System.Drawing.Color.Transparent;
-            this.img_combo.Images.SetKeyName(0, "smartphone.png");
-            this.img_combo.Images.SetKeyName(1, "telephone.png");
-            this.img_combo.Images.SetKeyName(2, "fax.png");
-            // 
-            // error
-            // 
-            this.error.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
-            this.error.ContainerControl = this;
             // 
             // configuracion
             // 
@@ -537,7 +537,6 @@
             this.bunifuCards1.ResumeLayout(false);
             this.bunifuCards1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.btnActualizar)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabla_horarios)).EndInit();
@@ -545,10 +544,11 @@
             this.telefonos.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tabla_telefonos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.error)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnActualizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuitar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAgregar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.error)).EndInit();
             this.ResumeLayout(false);
 
         }
